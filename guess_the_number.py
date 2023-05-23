@@ -6,7 +6,7 @@ while again_game == True:
     print(art.logo)
     print("Welcome to the game Guess The Number")
     
-    what_level = input("Choise the level, put 'easy' or 'hard'\n").lower()
+    what_level = input("Choose the level, put 'easy' or 'hard'\n").lower()
     
     generating = random.randint(0,50)
     #chances = int
